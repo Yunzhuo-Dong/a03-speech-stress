@@ -1,0 +1,22 @@
+# ---- participant data and derived participant-level files: never commit ----
+data/
+*.wav
+*.sav
+*.zip
+*.npz
+*.pt
+PRIVATE_*
+**/PRIVATE_*
+results/
+.cache/
+*.log
+
+# ---- local configuration ----
+src/config.local.sh
+
+# ---- python / editors ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store

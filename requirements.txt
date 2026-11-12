@@ -1,0 +1,27 @@
+# Tested with Python 3.10 on Ubuntu (PyTorch 2.11 + CUDA 12.6 for Step 2a).
+# Versions are not pinned; install into an existing environment without upgrading:
+#   pip install --upgrade-strategy only-if-needed -r requirements.txt
+
+# core / statistics
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+joblib
+matplotlib
+
+# input files
+openpyxl          # protocol spreadsheets
+pyreadstat        # SPSS .sav
+soundfile         # wav I/O
+
+# acoustic features (Step 1a)
+praat-parselmouth
+opensmile
+
+# pretrained emotion model (Step 2a)
+torch
+transformers
+huggingface_hub
+safetensors

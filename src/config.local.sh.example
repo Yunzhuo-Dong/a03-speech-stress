@@ -1,0 +1,4 @@
+# Copy to src/config.local.sh and adapt. This file is git-ignored.
+AUDIO_PROJECT="$HOME/research_storage/from_gold/Audio_Analysis_Mannheim"
+VENV="$HOME/.venvs/audio_ml"
+RESEARCH_MOUNT="/media/<user>/Internal_Store_1"   # leave empty to skip the mount check
